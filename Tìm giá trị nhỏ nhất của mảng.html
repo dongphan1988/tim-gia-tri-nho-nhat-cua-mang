@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+
+    function minarrr(arr) {
+        if ( arr.length == 0 ) {
+            document.write("gia tri be nhat cua ham rong la"+ "-1" +"<br>");
+        }else {
+            let min = arr[0];
+            for (let i = 0; i < arr1.length; i++) {
+                if ( arr[i] < min ) {
+                    min = arr[i];
+                }
+            }
+            document.write( "gia tri be nhat cua ham la " + min + "<br>" );
+        }
+    }
+
+    function maxarr(arr) {
+        if ( arr.length == 0 ) {
+            document.write( "gia tri be nhat cua ham rong la "+"-1" +"<br>");
+        }else{
+            let max = arr[0];
+            for (let i = 0; i < arr.length; i++) {
+                if ( arr[i] > max ) {
+                    max = arr[i];
+                }
+            }
+            document.write( "gia tri lon nhat cua ham la " + max + "<br>" );
+        }
+    }
+    let arr1 = [1,44,55,3,1,3,-1];
+    minarrr( arr1 );
+    maxarr( arr1 );
+
+
+</script>
+</body>
+</html>
